@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 7007
+EXPOSE 3000
 
 RUN apt update -y &&\
     chmod +x index.js &&\
